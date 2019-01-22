@@ -1,0 +1,6 @@
+Objective: Introduce Python syntax and basic code demos. 
+Level: Beginner
+
+Demos:
+Read_Write-Python3.6demo.ipynb - learn to read/write files the "hard way" and with the Numpy and Pandas packages.
+BasicPlotting.ipynb - basic read/write and plotting of data with Matplotlib.
