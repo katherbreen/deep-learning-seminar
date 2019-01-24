@@ -4,3 +4,4 @@ Level: Beginner
 Demos:
 Read_Write-Python3.6demo.ipynb - learn to read/write files the "hard way" and with the Numpy and Pandas packages.
 BasicPlotting.ipynb - basic read/write and plotting of data with Matplotlib.
+ForLoops.ipynb - how to write for loops (iterate) in Python 3 ways.
