@@ -1,0 +1,5 @@
+Objective: Introduce neural networks, look at a basic example, and introduce an example of creating a data-driven surrogate for a physics-based model  
+Level: Beginner
+
+Demos:
+DLM_basic.py - create a simple deep learning model (DLM) to approximate the function y = x^2 (regression task).
