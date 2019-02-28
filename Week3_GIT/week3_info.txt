@@ -1,0 +1,9 @@
+Objective: Introduce and apply preprocessing, regularization and hyperparameter tuning to simple DLM demoed in previous session (y=x^2).
+Level: Intermediate
+
+Demos:
+preprocessing_DLM_basic2.py - normalize, shuffle, and partition data, then write the transformed data sets to *hdf5 format.
+DLM_basic2.py - create a simple deep learning model (DLM) to approximate the function y = x^2 (regression task) and examine the loss at several auxiliary locations in the network. The question here is, how can we gain some intuition of DLM processes prior to setting up a hyperparameter tuning run?
+DLM_basic2_HyperParamTuning.py - Perform 100 iterations of DLM training with different hyperparameters. Save the results to a Python dictionary and write the object to a file by "pickling".
+DLM_basic2_HPoutput.py - Read in the pickled dictionary of HP tuning results, choose the best one, and plot.
+DLM_basic2_tuned.py - Re-train the model using tuned hyperparameters. Think: why are the results not exactly the same as those obtained during the HP tuning run?
