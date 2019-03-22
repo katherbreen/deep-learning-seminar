@@ -1,0 +1,8 @@
+Objective: IDevelop a data-driven surrogate for a simple model.
+Level: Intermediate
+
+Demos:
+pulse2d_simplemodel: run a simple physical model and view output
+pulse2d_iter: run the simple model 100,000 times to create training data for an MLP
+pulse2d_MLP_preprocess: preprocess training data
+pulse2d_MLP: train a data-driven surrogate (MLP) for the simple model (pulse2d)
